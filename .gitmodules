@@ -1,0 +1,3 @@
+[submodule "scoreboard-web"]
+	path = scoreboard-web
+	url = .\\scoreboard-web\\
