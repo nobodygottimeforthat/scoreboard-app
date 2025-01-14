@@ -1,6 +1,6 @@
 {
   "name": "scoreboard-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "build": {
     "appId": "com.migas.bowlingscoreboard",
@@ -29,7 +29,8 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder"
+    "build": "electron-builder",
+    "clean": "rmdir /s /q node_modules && rmdir /s /q dist"
   },
   "keywords": [],
   "author": "Samuel Migas",
